@@ -14,22 +14,22 @@ const Sidebar = ({ children }) => {
   const menuItem = [
     {
       path: "/dashboard",
-      name: "dashboard",
+      name: "Dashboard",
       icon: <MdSpaceDashboard />,
     },
     {
       path: "/dashboard",
-      name: "dashboard",
+      name: "Calendar",
       icon: <AiFillCalendar />,
     },
     {
       path: "/dashboard",
-      name: "dashboard",
+      name: "Trello",
       icon: <AiOutlineTable />,
     },
     {
       path: "/dashboard",
-      name: "dashboard",
+      name: "Tasks",
       icon: <FaTasks />,
     },
   ];
