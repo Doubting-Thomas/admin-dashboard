@@ -1,0 +1,39 @@
+.sidebar {
+  background-color: var(--color-secondary);
+  color: var(--color-primary-2);
+  height: 100vh;
+  width: 15rem;
+  transition: all 0.3s;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 2rem;
+}
+
+.logo {
+  font-size: 2rem;
+  /* display: flex;
+  margin-left: 5rem; */
+}
+
+.link {
+  display: flex;
+  color: var(--color-primary-2);
+  padding: 1.5rem;
+  gap: 1.5rem;
+  transition: all 0.3s;
+}
+
+.link:hover {
+  background-color: var(--color-primary-2);
+  color: var(--main-bg);
+  transition: all 0.3s;
+}
+
+.active {
+  background-color: var(--color-primary-2);
+  color: var(--main-bg);
+}
