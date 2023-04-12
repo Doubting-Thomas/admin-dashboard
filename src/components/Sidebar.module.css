@@ -15,8 +15,6 @@
 
 .logo {
   font-size: 2rem;
-  /* display: flex;
-  margin-left: 5rem; */
 }
 
 .link {
@@ -24,6 +22,7 @@
   color: var(--color-primary-2);
   padding: 1.5rem;
   gap: 1.5rem;
+  align-items: center;
   text-decoration: none;
   transition: all 0.3s;
 }
