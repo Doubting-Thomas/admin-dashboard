@@ -6,7 +6,6 @@ import Dashboard from "./pages/Dashboard";
 const App = () => {
   return (
     <div className="dashboard">
-      <h1>Let's get started</h1>
       <BrowserRouter>
         <Sidebar>
           <Routes>
