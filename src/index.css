@@ -5,6 +5,7 @@
   --color-primary-2: #023e8a;
   --color-secondary: #0077b6;
   --color-tertiary: #fb8500;
+  --color-tertiary-2: #000000;
 }
 
 *,
@@ -27,5 +28,6 @@ body {
 
 main {
   width: 100%;
-  padding: 5rem 10rem;
+  /* padding: 5rem 10rem; */
+  padding: 0 1.5rem;
 }
