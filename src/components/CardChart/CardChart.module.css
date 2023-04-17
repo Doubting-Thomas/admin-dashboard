@@ -1,0 +1,99 @@
+.CompactCard {
+  padding: 5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.CompactCard > h2 {
+  text-align: center;
+}
+
+.CardChart_cardInfo__4CIpG {
+  padding: 5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+
+.CardChart_cardInfo__4CIpG > p {
+  color: red;
+}
+
+.Card_card__H8gCl > div > .CompactCard > h2 {
+  text-align: center;
+  color: blue;
+}
+
+.Card_card__H8gCl > div {
+  padding: 5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.CompactCard:hover {
+  transform: scale(1.1);
+}
+
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.percentage {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.CircularProgressbar {
+  /* width: 4rem !important; */
+  overflow: visible;
+}
+
+.CircularProgressbar-path {
+  stroke: var(--color-primary) !important;
+  stroke-width: 1.3rem !important;
+  filter: drop-shadow(0.2rem 0.4rem 0.6rem var(--color-primary));
+}
+
+.CircularProgressbar-trail {
+  display: none;
+}
+
+/* text (70%) */
+.CircularProgressbar-text {
+  fill: var(--color-primary) !important;
+}
+
+.cardTitle {
+  font-weight: 700;
+}
+
+.ExpandedCard {
+  position: absolute;
+  width: 60%;
+  height: 70vh;
+  z-index: 9;
+  left: 13rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.chartContainer {
+  width: 70%;
+}
