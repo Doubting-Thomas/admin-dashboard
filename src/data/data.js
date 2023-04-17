@@ -15,9 +15,10 @@ export const cardInfo = [
     // dollar value beside the percentage
     value: `$45,600`,
     // icon
-    icon: <FaMoneyBillAlt size={15} />,
+    icon: <FaMoneyBillAlt size={25} />,
     // icon: FaMoneyBillAlt,
     // this is for the graph that pops up when we click
+    description: "Revenue Generated",
     series: [
       {
         name: "Revenue",
@@ -33,8 +34,9 @@ export const cardInfo = [
     },
     barValue: 80,
     value: "39,570",
-    icon: <TbMoneybag size={15} />,
+    icon: <TbMoneybag size={25} />,
     // icon: TbMoneybag,
+    description: "Sales Completed",
     series: [
       {
         name: "Sales",
@@ -50,8 +52,9 @@ export const cardInfo = [
     },
     barValue: 55,
     value: "10,130",
-    icon: <IoIosPeople size={15} />,
+    icon: <IoIosPeople size={25} />,
     // icon: IoIosPeople,
+    description: "New Customers",
     series: [
       {
         name: "Customers",
@@ -61,18 +64,19 @@ export const cardInfo = [
   },
 
   {
-    title: "Traffic Generated",
+    title: "Traffic",
     color: {
       backGround: "#ffffff",
       boxShadow: "0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)",
     },
     barValue: 83,
     value: "1,348,908",
-    icon: <HiViewBoards size={15} />,
+    icon: <HiViewBoards size={25} />,
     // icon: HiViewBoards,
+    description: "Traffic Generated",
     series: [
       {
-        name: "Traffic Generated",
+        name: "Traffic",
         data: [10, 25, 15, 30, 12, 15, 20],
       },
     ],
