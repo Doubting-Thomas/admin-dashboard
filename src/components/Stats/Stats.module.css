@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+/* .title {
+  text-transform: uppercase;
+} */
