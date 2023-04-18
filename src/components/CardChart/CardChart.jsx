@@ -95,7 +95,6 @@ function ExpandedCard({ param, setExpanded }) {
       },
     },
 
-    // cool hover effect
     tooltip: {
       trigger: "axis",
       axisPointer: {
@@ -128,7 +127,6 @@ function ExpandedCard({ param, setExpanded }) {
       },
     ],
 
-    // data inside the chart, can be random
     series: [
       {
         type: "line",
@@ -173,7 +171,7 @@ function ExpandedCard({ param, setExpanded }) {
   };
 
   return (
-    // motion.div to make the popup transition smooth
+
     <motion.div
       className="ExpandedCard"
       style={{
