@@ -2,7 +2,7 @@ import React from "react";
 import ReactECharts from "echarts-for-react";
 import * as echarts from "echarts";
 
-const Geography = () => {
+const BarChart = () => {
   const option = {
     tooltip: {
       trigger: "axis",
@@ -47,4 +47,4 @@ const Geography = () => {
   };
   return <ReactECharts option={option} />;
 };
-export default Geography;
+export default BarChart;

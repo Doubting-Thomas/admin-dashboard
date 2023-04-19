@@ -2,6 +2,8 @@ import React from "react";
 import css from "./Stats.module.css";
 import { BsFillArrowUpSquareFill } from "react-icons/bs";
 import StatsChart from "../StatsChart/StatsChart";
+import Geography from "../BarChart/BarChart";
+import BarChart from "../BarChart/BarChart";
 
 const Stats = () => {
   return (
@@ -20,7 +22,9 @@ const Stats = () => {
         </div>
       </div>
 
-      <div className={css.geography}></div>
+      <div className={css.bar}>
+        <BarChart />
+      </div>
     </div>
   );
 };
