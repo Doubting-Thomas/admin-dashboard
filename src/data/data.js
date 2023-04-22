@@ -10,14 +10,9 @@ export const cardInfo = [
       backGround: "#ffffff",
       boxShadow: "0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)",
     },
-    // percentage design
     barValue: 75,
-    // dollar value beside the percentage
     value: `$45,600`,
-    // icon
     icon: <FaMoneyBillAlt size={25} />,
-    // icon: FaMoneyBillAlt,
-    // this is for the graph that pops up when we click
     description: "Revenue Generated",
     series: [
       {
