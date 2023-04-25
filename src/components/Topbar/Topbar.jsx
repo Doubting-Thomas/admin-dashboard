@@ -10,7 +10,7 @@ const Topbar = () => {
         <input
           type="text"
           className={css.topbar__input}
-          placeholder="Search..."
+          placeholder="Search for anything..."
         />
 
         <BiSearch size={20} />
