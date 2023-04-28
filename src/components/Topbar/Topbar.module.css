@@ -14,8 +14,6 @@
   align-items: center;
   justify-self: center;
   border: 0.1rem solid var(--color-tertiary-2);
-  /* justify-content: center; */
-  /* gap: 8px; */
 }
 
 .topbar__input {
