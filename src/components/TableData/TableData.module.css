@@ -1,0 +1,40 @@
+.MuiTableRow-root > * {
+  padding: 1.3rem;
+}
+
+.MuiTableCell-root {
+  color: red;
+}
+
+.test {
+  color: red;
+}
+
+.MuiTableCell-root
+  .MuiTableCell-head
+  .MuiTableCell-sizeMedium
+  .css-1ygcj2i-MuiTableCell-root {
+  color: yellow;
+}
+
+.MuiTableRow-root.MuiTableRow-head > * {
+  font-weight: 700 !important;
+}
+
+.container td,
+th {
+  border: none !important;
+}
+
+.Table:first-child {
+  border-radius: 0.7rem !important;
+}
+
+.status {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.details {
+  color: var(--color-secondary) !important;
+}
