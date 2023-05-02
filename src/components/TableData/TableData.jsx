@@ -50,11 +50,31 @@ export default function OrderTable() {
         <Table sx={{ minWidth: 400 }} aria-label="simple table">
           <TableHead>
             <TableRow>
-              <TableCell>Product</TableCell>
-              <TableCell align="left">Product ID</TableCell>
-              <TableCell align="left">Date</TableCell>
-              <TableCell align="left">Status</TableCell>
-              <TableCell align="left"></TableCell>
+              <TableCell sx={{ fontSize: `1.5rem`, fontWeight: "700" }}>
+                Product
+              </TableCell>
+              <TableCell
+                align="left"
+                sx={{ fontSize: `1.5rem`, fontWeight: "700" }}
+              >
+                ID
+              </TableCell>
+              <TableCell
+                align="left"
+                sx={{ fontSize: `1.5rem`, fontWeight: "700" }}
+              >
+                Date
+              </TableCell>
+              <TableCell
+                align="left"
+                sx={{ fontSize: `1.5rem`, fontWeight: "700" }}
+              >
+                Status
+              </TableCell>
+              <TableCell
+                align="left"
+                sx={{ fontSize: `1.5rem`, fontWeight: "700" }}
+              ></TableCell>
             </TableRow>
           </TableHead>
           <TableBody style={{ color: "white" }}>
@@ -65,12 +85,29 @@ export default function OrderTable() {
                   "&:last-child td, &:last-child th": { border: 0 },
                 }}
               >
-                <TableCell component="th" scope="row">
+                <TableCell
+                  component="th"
+                  scope="row"
+                  sx={{ fontSize: `1.1rem`, fontWeight: "400" }}
+                >
                   {row.name}
                 </TableCell>
-                <TableCell align="left">{row.trackingId}</TableCell>
-                <TableCell align="left">{row.date}</TableCell>
-                <TableCell align="left">
+                <TableCell
+                  align="left"
+                  sx={{ fontSize: `1.1rem`, fontWeight: "400" }}
+                >
+                  {row.trackingId}
+                </TableCell>
+                <TableCell
+                  align="left"
+                  sx={{ fontSize: `1.1rem`, fontWeight: "400" }}
+                >
+                  {row.date}
+                </TableCell>
+                <TableCell
+                  align="left"
+                  sx={{ fontSize: `1.1rem`, fontWeight: "400" }}
+                >
                   <span className={css.status} style={tableStyle(row.status)}>
                     {row.status}
                   </span>
