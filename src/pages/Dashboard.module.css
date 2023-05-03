@@ -1,0 +1,7 @@
+.dashboard__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  /* justify-content: space-between; */
+}
