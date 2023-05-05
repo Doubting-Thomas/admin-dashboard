@@ -9,6 +9,7 @@ export const cardInfo = [
     color: {
       backGround: "#ffffff",
       boxShadow: "0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)",
+      // 0px 13px 20px 0px #80808029
     },
     barValue: 75,
     value: `$45,600`,
@@ -30,7 +31,6 @@ export const cardInfo = [
     barValue: 80,
     value: "39,570",
     icon: <TbMoneybag size={25} />,
-    // icon: TbMoneybag,
     description: "Sales Completed",
     series: [
       {
@@ -48,7 +48,6 @@ export const cardInfo = [
     barValue: 55,
     value: "10,130",
     icon: <IoIosPeople size={25} />,
-    // icon: IoIosPeople,
     description: "New Customers",
     series: [
       {
@@ -67,7 +66,6 @@ export const cardInfo = [
     barValue: 83,
     value: "1,348,908",
     icon: <HiViewBoards size={25} />,
-    // icon: HiViewBoards,
     description: "Traffic Generated",
     series: [
       {
