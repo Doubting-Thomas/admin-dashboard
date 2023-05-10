@@ -19,7 +19,6 @@ const Dashboard = () => {
         <OrderTable />
 
         <div className={css.dashboard__pie}>
-          {/* <h3 className={css.heading}>Revenue</h3>; */}
           <PieChartData />
         </div>
       </div>
