@@ -18,18 +18,18 @@ const Sidebar = ({ children }) => {
       icon: <MdSpaceDashboard />,
     },
     {
-      path: "/dashboard",
+      path: "/calendar",
       name: "Calendar",
       icon: <AiFillCalendar />,
     },
     {
-      path: "/dashboard",
+      path: "/boardpage",
       name: "Trello",
       icon: <AiOutlineTable />,
     },
     {
-      path: "/dashboard",
-      name: "Tasks",
+      path: "/datagrid",
+      name: "Data Grid",
       icon: <FaTasks />,
     },
   ];
