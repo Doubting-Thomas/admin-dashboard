@@ -2,6 +2,7 @@ import { IoIosPeople } from "react-icons/io";
 import { FaMoneyBillAlt } from "react-icons/fa";
 import { TbMoneybag } from "react-icons/tb";
 import { HiViewBoards } from "react-icons/hi";
+import moment from "moment/moment";
 
 export const cardInfo = [
   {
@@ -73,5 +74,133 @@ export const cardInfo = [
         data: [10, 25, 15, 30, 12, 15, 20],
       },
     ],
+  },
+];
+
+let events = 0;
+let currentDate = moment().format("YYYY-MM-DD");
+export const calendarEvents = [
+  {
+    id: eventID(),
+    title: "Dinner Meeting",
+    start: currentDate + "T10:00:00",
+  },
+  {
+    id: eventID(),
+    title: "Strategic Meeting",
+    start:
+      moment(currentDate).add(1, "days").format("YYYY-MM-DD") + "T19:00:00",
+  },
+  {
+    id: eventID(),
+    title: "Crunch Meeting",
+    start:
+      moment(currentDate).add(2, "days").format("YYYY-MM-DD") + "T21:00:00",
+  },
+  {
+    id: eventID(),
+    title: "VC Meeting",
+    start:
+      moment(currentDate).add(3, "days").format("YYYY-MM-DD") + "T10:00:00",
+  },
+  {
+    id: eventID(),
+    title: "Strategic Meeting",
+    start:
+      moment(currentDate).add(5, "days").format("YYYY-MM-DD") + "T14:00:00",
+  },
+  {
+    id: eventID(),
+    title: "Lunch Meeting",
+    start:
+      moment(currentDate).add(6, "days").format("YYYY-MM-DD") + "T14:00:00",
+  },
+];
+
+export function eventID() {
+  return String(events++);
+}
+
+export const userInfo = [
+  {
+    name: {
+      firstName: "Mary",
+      lastName: "Doe",
+    },
+    address: "23 Pillarman Street",
+    city: "Colorado",
+    state: "Denver",
+  },
+  {
+    name: {
+      firstName: "Jane",
+      lastName: "Poppins",
+    },
+    address: "69 Dominic Street",
+    city: "Dover",
+    state: "Delaware",
+  },
+  {
+    name: {
+      firstName: "William",
+      lastName: "Bright",
+    },
+    address: "26 South Park",
+    city: "Arizona",
+    state: "Phoenix",
+  },
+  {
+    name: {
+      firstName: "James",
+      lastName: "Vauhagn",
+    },
+    address: "28 Emilie Road",
+    city: "Hartford",
+    state: "Connecticut",
+  },
+  {
+    name: {
+      firstName: "Joshua",
+      lastName: "Brooks",
+    },
+    address: "32 Sharp Turnpike",
+    city: "Alabama",
+    state: "Montgomery",
+  },
+  {
+    name: {
+      firstName: "Charles",
+      lastName: "Woods",
+    },
+    address: "64 Dominic Grove",
+    city: "Juneau",
+    state: "Alaska",
+  },
+  {
+    name: {
+      firstName: "James",
+      lastName: "Vauhagn",
+    },
+    address: "28 Emilie Road",
+    city: "Hartford",
+    state: "Connecticut",
+  },
+  {
+    name: {
+      firstName: "Charles",
+      lastName: "Woods",
+    },
+    address: "64 Dominic Grove",
+    city: "Juneau",
+    state: "Alaska",
+  },
+  {
+    name: {
+      firstName: "Jane",
+      lastName: "Poppins",
+    },
+    address: "69 Dominic Street",
+    city: "Dover",
+    state: "Delaware",
   },
 ];
