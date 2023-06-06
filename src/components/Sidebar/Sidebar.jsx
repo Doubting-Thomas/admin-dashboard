@@ -23,13 +23,8 @@ const Sidebar = ({ children }) => {
       icon: <AiFillCalendar />,
     },
     {
-      path: "/boardpage",
-      name: "Trello",
-      icon: <AiOutlineTable />,
-    },
-    {
-      path: "/datagrid",
-      name: "Data Grid",
+      path: "/userdata",
+      name: "User Data",
       icon: <FaTasks />,
     },
   ];
