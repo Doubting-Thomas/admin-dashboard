@@ -6,10 +6,11 @@ import CardChart from "../CardChart/CardChart";
 const Card = () => {
   return (
     <div className={css.card}>
-      {cardInfo.map((card, id) => {
+      {cardInfo.map((card, index) => {
         return (
           <div className={css.card__container}>
             <CardChart
+              key={index}
               title={card.title}
               color={card.color}
               barValue={card.barValue}

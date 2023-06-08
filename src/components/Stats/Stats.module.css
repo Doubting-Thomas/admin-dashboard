@@ -9,3 +9,12 @@
 .container {
   margin-bottom: 5rem;
 }
+
+@media (min-width: 75em) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+  }
+}
