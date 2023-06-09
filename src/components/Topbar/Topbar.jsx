@@ -6,17 +6,17 @@ import { MdOutlineLightMode } from "react-icons/md";
 const Topbar = () => {
   return (
     <div className={css.topbar}>
-      <div className={css.topbar__search}>
+      <div className={css.search}>
         <input
           type="text"
-          className={css.topbar__input}
+          className={css.input}
           placeholder="Search for anything..."
         />
 
         <BiSearch size={20} />
       </div>
 
-      <div className={css.topbar__icon}>
+      <div className={css.icon}>
         <MdOutlineLightMode size={20} />
       </div>
     </div>

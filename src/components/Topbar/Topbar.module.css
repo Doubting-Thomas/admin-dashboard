@@ -4,7 +4,7 @@
   margin-bottom: 3rem;
 }
 
-.topbar__search {
+.search {
   width: 50%;
   max-width: 20rem;
   padding: 1rem 1rem 1rem 0;
@@ -16,7 +16,7 @@
   border: 0.1rem solid var(--color-tertiary-2);
 }
 
-.topbar__input {
+.input {
   background: transparent;
   outline: none;
   border: none;
@@ -25,12 +25,12 @@
   color: var(--color-primary);
 }
 
-.topbar__icon {
+.icon {
   display: flex;
   align-items: flex-end;
   margin-left: auto;
 }
 
-.topbar__icon:hover {
+.icon:hover {
   cursor: pointer;
 }

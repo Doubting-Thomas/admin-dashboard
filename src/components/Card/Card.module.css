@@ -8,23 +8,16 @@
 
 @media (min-width: 37.5em) {
   .card {
-    /* width: 60%; */
     display: grid;
-    /* flex-direction: row; */
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: space-between;
   }
 }
 
-@media (min-width: 56.25em) {
-}
-
 @media (min-width: 75em) {
   .card {
-    /* width: 60%; */
     display: grid;
-    /* flex-direction: row; */
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     justify-content: space-between;

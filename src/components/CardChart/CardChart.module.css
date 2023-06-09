@@ -53,7 +53,6 @@
 }
 
 .CircularProgressbar {
-  /* width: 4rem !important; */
   overflow: visible;
 }
 
@@ -67,7 +66,6 @@
   display: none;
 }
 
-/* text (70%) */
 .CircularProgressbar-text {
   fill: var(--color-primary) !important;
 }
