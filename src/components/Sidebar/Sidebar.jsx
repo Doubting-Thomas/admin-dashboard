@@ -1,10 +1,12 @@
 import React from "react";
 import css from "./Sidebar.module.css";
 import { MdSpaceDashboard } from "react-icons/md";
-import { AiFillCalendar, AiOutlineTable } from "react-icons/ai";
+import { AiFillCalendar } from "react-icons/ai";
 import { FaTasks, FaBars } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
+import { BarChart, BarChartOutlined } from "@mui/icons-material";
+import { BiBarChart, BiLineChart, BiPieChart } from "react-icons/bi";
 
 const Sidebar = ({ children }) => {
   const [isCollapsed, setIsCollapsed] = useState(false);
@@ -26,6 +28,21 @@ const Sidebar = ({ children }) => {
       path: "/userdata",
       name: "User Data",
       icon: <FaTasks />,
+    },
+    {
+      path: "/barchart",
+      name: "Bar Chart",
+      icon: <BiBarChart />,
+    },
+    {
+      path: "/statschart",
+      name: "Line Chart",
+      icon: <BiLineChart />,
+    },
+    {
+      path: "/piechart",
+      name: "Pie Chart",
+      icon: <BiPieChart />,
     },
   ];
   return (
