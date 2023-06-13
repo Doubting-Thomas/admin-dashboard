@@ -2,7 +2,6 @@ import React from "react";
 import css from "./Stats.module.css";
 import { BsFillArrowUpSquareFill } from "react-icons/bs";
 import StatsChart from "../StatsChart/StatsChart";
-import Geography from "../BarChart/BarChart";
 import BarChart from "../BarChart/BarChart";
 
 const Stats = () => {
