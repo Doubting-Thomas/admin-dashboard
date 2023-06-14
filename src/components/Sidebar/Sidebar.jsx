@@ -44,6 +44,11 @@ const Sidebar = ({ children }) => {
       name: "Pie Chart",
       icon: <BiPieChart />,
     },
+    {
+      path: "/login",
+      name: "Login",
+      icon: <BiPieChart />,
+    },
   ];
   return (
     <div className={css.container}>
