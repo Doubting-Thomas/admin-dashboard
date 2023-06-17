@@ -22,20 +22,6 @@ const CardChart = (props) => {
   );
 };
 
-// const cardIcon = param.icon;
-// const yup = 5;
-// const nope = 7;
-
-// function test({ param, setExpanded }) {
-//   yup;
-//   const cardIcons = param.icon;
-//   return (
-//     <motion.div style={{ background: param.color.backgrund }}>
-//       <cardIcons />
-//     </motion.div>
-//   );
-// }
-
 function CompactCard({ param, setExpanded }) {
   return (
     <motion.div
@@ -171,7 +157,6 @@ function ExpandedCard({ param, setExpanded }) {
   };
 
   return (
-
     <motion.div
       className="ExpandedCard"
       style={{
@@ -196,10 +181,7 @@ function ExpandedCard({ param, setExpanded }) {
         <TiTimes onClick={setExpanded} size={15} />
       </div>
       <h2 className={css.CardTitle}>{param.title}</h2>
-      {/* <div className="chartContainer" style={{ width: `100%` }}> */}
       <ReactECharts option={options} series={param.series} />
-      {/* </div> */}
-      {/* <span>Last 24 hours</span> */}
     </motion.div>
   );
 }
