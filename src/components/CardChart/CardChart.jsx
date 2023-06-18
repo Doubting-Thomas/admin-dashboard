@@ -121,12 +121,12 @@ function ExpandedCard({ param, setExpanded }) {
           color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
             {
               offset: 0,
-              //color: "rgb(255, 191, 0)",
+
               color: "#023e8a",
             },
             {
               offset: 1,
-              // color: "#F450D3",
+
               color: "#023e8a",
             },
           ]),
@@ -141,7 +141,7 @@ function ExpandedCard({ param, setExpanded }) {
             },
             {
               offset: 1,
-              // color: "rgba(255,144,70,0.1)",
+
               color: "#023e8a",
             },
           ]),
@@ -151,7 +151,6 @@ function ExpandedCard({ param, setExpanded }) {
         },
         showSymbol: false,
         data: [28000, 19000, 32000, 18000, 41000, 30000, 26000],
-        //data: [param.series],
       },
     ],
   };
