@@ -123,4 +123,3 @@ export default function OrderTable() {
     </div>
   );
 }
-//export default OrderTable;
