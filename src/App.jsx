@@ -7,6 +7,7 @@ import UserData from "./pages/UserData/UserData";
 import PieChartData from "./components/PieChart/PieChart";
 import StatsChart from "./components/StatsChart/StatsChart";
 import BarChart from "./components/BarChart/BarChart";
+
 const App = () => {
   return (
     <div className="container">
